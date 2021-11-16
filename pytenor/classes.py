@@ -53,7 +53,7 @@ class GIF:
         return self.__get_media("gif")
 
     @property
-    def medium_gif(self) -> Media:
+    def mediumgif(self) -> Media:
         return self.__get_media("mediumgif")
 
     @property
@@ -69,15 +69,15 @@ class GIF:
         return self.__get_media("mp4")
 
     @property
-    def looped_mp4(self) -> Media:
+    def loopedmp4(self) -> Media:
         return self.__get_media("loopedmp4")
 
     @property
-    def tiny_mp4(self) -> Media:
+    def tinymp4(self) -> Media:
         return self.__get_media("tinymp4")
 
     @property
-    def nano_mp4(self) -> Media:
+    def nanomp4(self) -> Media:
         return self.__get_media("nanomp4")
 
     @property
@@ -85,11 +85,11 @@ class GIF:
         return self.__get_media("webm")
 
     @property
-    def tiny_webm(self) -> Media:
+    def tinywebm(self) -> Media:
         return self.__get_media("tinywebm")
 
     @property
-    def nano_webm(self) -> Media:
+    def nanowebm(self) -> Media:
         return self.__get_media("nanowebm")
 
 
