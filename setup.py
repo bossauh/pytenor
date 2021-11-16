@@ -12,8 +12,8 @@ setup(
     long_description=long_description,
     author="Philippe Mathew",
     author_email="philmattdev@gmail.com",
-    url="",
-    download_url="",
+    url="https://github.com/bossauh/pytenor",
+    download_url="https://github.com/bossauh/pytenor/archive/refs/tags/v1_0.tar.gz",
     keywords=["api", "tools", "utilities"],
     install_requires=[
         "aiohttp"
