@@ -8,7 +8,7 @@ from .classes import *
 
 
 class Helpers:
-    async def get_url_as_gif(self, url: str) -> Union[GIF, None]:
+    async def get_url_as_gif(self, url: str, **params) -> Union[GIF, None]:
         """Returns the GIF object of the provided tenor url. None if not found or url is invalid."""
 
         segments = url.split("-")
@@ -19,7 +19,7 @@ class Helpers:
         except ValueError:
             return None
         
-        gifs = await self.get_gifs(id_)
+        gifs = await self.get_gifs(id_, **params)
         if not gifs:
             return None
         return gifs[0]
