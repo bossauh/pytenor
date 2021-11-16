@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 with open("README.md", "r") as f:
     long_description = f.read()
@@ -10,6 +10,7 @@ setup(
     license="MIT",
     description="A simple API wrapper for tenor's gif api that is built with asyncio.",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     author="Philippe Mathew",
     author_email="philmattdev@gmail.com",
     url="https://github.com/bossauh/pytenor",
