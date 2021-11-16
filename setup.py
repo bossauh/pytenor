@@ -6,7 +6,7 @@ with open("README.md", "r") as f:
 setup(
     name="pytenor",
     packages=["pytenor"],
-    version="1.1",
+    version="1.2",
     license="MIT",
     description="A simple API wrapper for tenor's gif api that is built with asyncio.",
     long_description=long_description,
@@ -14,7 +14,7 @@ setup(
     author="Philippe Mathew",
     author_email="philmattdev@gmail.com",
     url="https://github.com/bossauh/pytenor",
-    download_url="https://github.com/bossauh/pytenor/archive/refs/tags/v1_1.tar.gz",
+    download_url="https://github.com/bossauh/pytenor/archive/refs/tags/v1_2.tar.gz",
     keywords=["api", "tools", "utilities"],
     install_requires=[
         "aiohttp"
